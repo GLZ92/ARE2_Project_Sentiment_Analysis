@@ -27,6 +27,8 @@ Generare i modelli con lo script **preprocess.py** come indicato nella documenta
 Eseguire **main.py** per generare i modelli.
 
 Occorre sapere che **GUI.py** a seconda del task selezionato dall'utente avviera il modello opportuno e utilizza l'hdf5 relativo al test generato per quel task. In sostanza l'utente dovrà assicurarsi che i modelli e gli hdf5 risultino avere dei nomi specifici a seconda del task.
+Il nome dell'hdf5 verrà indicato inizializzando il flag --custom_name, mentre il nome del modello viene specificato tramite il flag savefile. Nella documentazione del progetto sent-conv-torch sono riportati i dettagli relativi all'uso di questi flag.
+
 Si riportano in seguito le corrispondenza tra task e nomenclature dei file da generare:
 
  Task                | Model           | HDF5  |
@@ -35,6 +37,8 @@ Si riportano in seguito le corrispondenza tra task e nomenclature dei file da ge
 | EI-oc , Joy        | EI-oc-joy.t7 | EI-oc-joy.hdf5 |
 | EI-oc , Sadness    | EI-oc-sadness.t7 | EI-oc-sadness.hdf5 |
 | EI-oc , Fear       | EI-oc-fear.t7 | EI-oc-fear.hdf5 |
+| V-oc               | V-oc.t7       | V-oc.hdf5 |
+| V-oc-3c               | V-oc-3c.t7       | V-oc-3c.hdf5 |
 
 
 ## ESECUZIONE
