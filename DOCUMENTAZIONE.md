@@ -20,11 +20,26 @@ Sovrascrivere tranquillamente il file **preprocess.py**. Esso non fa altro che g
 **GUI.py** infine è lo script che avvia l'interfaccia grafica mediante la quale l'utente potrà specificare un tweet/testo e avviare la classificazione dopo aver selezionato il task desiderato.
 
 
+## GENERAZIONE MODELLI e HDF5
+
+Generare i modelli con lo script **preprocess.py** come indicato nella documentazione del progetto sent-conv-torch.
+
+Eseguire **main.py** per generare i modelli.
+
+Occorre sapere che **GUI.py** a seconda del task selezionato dall'utente avviera il modello opportuno e utilizza l'hdf5 relativo al test generato per quel task. In sostanza l'utente dovrà assicurarsi che i modelli e gli hdf5 risultino avere dei nomi specifici a seconda del task.
+Si riportano in seguito le corrispondenza tra task e nomenclature dei file da generare:
+
+ Task                | Model           | HDF5  |
+| -----------------  |:-------------:| -----:|
+| EI-oc , Angry      | EI-oc-angry.t7 | EI-oc-angry.hdf5 |
+| EI-oc , Joy        | EI-oc-joy.t7 | EI-oc-joy.hdf5 |
+| EI-oc , Sadness    | EI-oc-sadness.t7 | EI-oc-sadness.hdf5 |
+| EI-oc , Fear       | EI-oc-fear.t7 | EI-oc-fear.hdf5 |
+
+
 ## ESECUZIONE
 
-Generare i modelli con lo script **preprocess.py** come indicato nella documentazione del progetto sent-conv-torch
-
-Per avviare la classificazione su tweet/testi generati in tempo reale avviare lo script **GUI.py**
+Per avviare il programma eseguire lo script **GUI.py**
 
 Specificare il testo, il task di classificazione e premere **Start classification**
 
