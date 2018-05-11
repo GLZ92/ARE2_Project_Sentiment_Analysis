@@ -9,7 +9,7 @@ Scaricare il repository https://github.com/harvardnlp/sent-conv-torch nel quale 
 
 Scaricare i file preprocess.py, main0.lua, preprocess0.py e GUI.py da questo repository e metterli nella cartella sent-corv-torch scaricata precedentemente.
 
-Sovrascrivere tranquillamente il file preprocess.py. Esso permette di generare un file contenente le indicizzazioni delle parole in un formato utilizzabile dal file preprocess0.py, evitando conflitti che sballino le future procedure di classificazione.
+Sovrascrivere tranquillamente il file preprocess.py. Esso dal punto di vista algoritmico è identico al preprocess preesistente, ma permette di generare un file contenente le indicizzazioni delle parole in un formato utilizzabile dal file preprocess0.py, evitando la nascita di conflitti che sballino le future procedure di classificazione.
 
 
 ESECUZIONE
