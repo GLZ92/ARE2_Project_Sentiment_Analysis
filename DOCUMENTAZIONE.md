@@ -13,7 +13,11 @@ Scaricare il repository https://github.com/harvardnlp/sent-conv-torch nel quale 
 
 Scaricare i file **preprocess.py**, **main0.lua**, **preprocess0.py** e **GUI.py** da questo repository e metterli nella cartella sent-corv-torch scaricata precedentemente.
 
-Sovrascrivere tranquillamente il file preprocess.py. Esso non fa altro che generare il file .txt di word_mapping contenente le indicizzazioni delle parole in un formato utilizzabile dal file preprocess0.py. Inoltre al fine di eliminare anomalie, esso applica prima l'indicizzazione delle parole presenti nel dev-set (ovviamente nel caso in cui esso venga specificato) rispetto a quelle del test-set.
+Sovrascrivere tranquillamente il file **preprocess.py**. Esso non fa altro che generare il file .txt di word_mapping contenente le indicizzazioni delle parole in un formato utilizzabile dallo script **preprocess0.py**. Inoltre al fine di eliminare anomalie, esso applica prima l'indicizzazione delle parole presenti nel dev-set (ovviamente nel caso in cui esso venga specificato) rispetto a quelle del test-set.
+
+**preprocess0.py** e **main0.lua** sono due varianti degli script **preprocess.py** e **main.lua** originali che consentono rispettivamente di generare hdf5 contenenti solo le informazioni relative al test-set e di eseguirne la classificazione senza verificare la presenza di dati relativa al train-set di cui non si necessita.
+
+**GUI.py** infine è lo script che avvia l'interfaccia grafica mediante la quale l'utente potrà specificare un tweet/testo e avviare la classificazione dopo aver selezionato il task desiderato.
 
 
 ## ESECUZIONE
