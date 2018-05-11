@@ -1,5 +1,8 @@
 **# ARE2_Project_Sentiment_Analysis**
-Sentiment analysis on tweets
+
+Sentiment analysis di tweet generati in tempo reale.
+
+__________________________________________________________
 
 Questa è la documentazione relativa al Progetto di Are2 che ha come scopo la classificazione di tweet a seconda del suo sentimento.
 
