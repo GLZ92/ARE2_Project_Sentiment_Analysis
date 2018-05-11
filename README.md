@@ -4,7 +4,7 @@ Sentiment analysis di tweet generati in tempo reale.
 
 __________________________________________________________
 
-Questa è la documentazione relativa al Progetto di Are2 che ha come scopo la classificazione di tweet a seconda del suo sentimento.
+Questa è la documentazione relativa al Progetto di Are2 che affronta alcuni task di classificazione di tweet/testi generati in tempo reale dall'utente, tramite un'interfaccia grafica creata ad hoc, sulla base del suo sentimento.
 
 **INSTALLAZIONE**
 
