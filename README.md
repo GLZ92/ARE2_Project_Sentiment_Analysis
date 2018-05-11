@@ -8,7 +8,7 @@ Questa è la documentazione relativa al Progetto di Are2 che affronta alcuni tas
 
 ## INSTALLAZIONE
 
-Scaricare il repository https://github.com/harvardnlp/sent-conv-torch nel quale sono indicate la dipendenze necessarie al suo corretto funzionamento.
+Scaricare il repository https://github.com/harvardnlp/sent-conv-torch nel quale sono indicate la dipendenze di cui si necessità l'installazione al fine di ottenere il suo corretto funzionamento.
 
 Scaricare i file preprocess.py, main0.lua, preprocess0.py e GUI.py da questo repository e metterli nella cartella sent-corv-torch scaricata precedentemente.
 
