@@ -11,17 +11,17 @@ Questa è la documentazione relativa al Progetto di Are2 che affronta alcuni tas
 
 Scaricare il repository https://github.com/harvardnlp/sent-conv-torch nel quale sono indicate la dipendenze di cui si necessità l'installazione al fine di ottenere il suo corretto funzionamento.
 
-Scaricare i file preprocess.py, main0.lua, preprocess0.py e GUI.py da questo repository e metterli nella cartella sent-corv-torch scaricata precedentemente.
+Scaricare i file **preprocess.py**, **main0.lua**, **preprocess0.py** e **GUI.py** da questo repository e metterli nella cartella sent-corv-torch scaricata precedentemente.
 
 Sovrascrivere tranquillamente il file preprocess.py. Esso non fa altro che generare il file .txt di word_mapping contenente le indicizzazioni delle parole in un formato utilizzabile dal file preprocess0.py, evitando la nascita di conflitti che sballino le future procedure di classificazione (cosa che accadrebbe con il preprocess.py preesistente). Inoltre sempre al fine di eliminare anomalie, esso applica prima l'indicizzazione delle parole presenti nel dev-set (nel caso in cui sia indicato ovviamente) rispetto a quelle del test-set.
 
 
 ## ESECUZIONE
 
-Generare i modelli con lo script preprocess.py come indicato nelle documentazione del progetto sent-conv-torch
+Generare i modelli con lo script **preprocess.py** come indicato nelle documentazione del progetto sent-conv-torch
 
-Per avviare la classificazione su tweet/testi generati in tempo reale avviare lo script GUI.py
+Per avviare la classificazione su tweet/testi generati in tempo reale avviare lo script **GUI.py**
 
-Specificare il testo, il task di classificazione e premere __"Start classification"__
+Specificare il testo, il task di classificazione e premere **Start classification**
 
-Il programma eseguirà nell'ordine preprocess0.py e main0.py; l'utente riceverà tramtite un messageBox la comunicazione della predizione efettuata da parte del programma.
+Il programma eseguirà nell'ordine **preprocess0.py** e **main0.py**; l'utente riceverà tramtite un messageBox la comunicazione della predizione efettuata da parte del programma.
