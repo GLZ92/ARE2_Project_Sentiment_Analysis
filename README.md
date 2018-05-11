@@ -24,4 +24,4 @@ Per avviare la classificazione su tweet/testi generati in tempo reale avviare lo
 
 Specificare il testo, il task di classificazione e premere **Start classification**
 
-Il programma eseguirà nell'ordine **preprocess0.py** e **main0.py**; l'utente riceverà tramtite un messageBox la comunicazione della predizione efettuata da parte del programma.
+Il programma eseguirà nell'ordine **preprocess0.py** e **main0.py**; l'utente riceverà tramtite un messageBox la comunicazione della predizione effettuata da parte del programma.
