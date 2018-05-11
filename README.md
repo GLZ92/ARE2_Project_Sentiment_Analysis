@@ -18,7 +18,7 @@ Sovrascrivere tranquillamente il file preprocess.py. Esso non fa altro che gener
 
 ## ESECUZIONE
 
-Generare i modelli con lo script **preprocess.py** come indicato nelle documentazione del progetto sent-conv-torch
+Generare i modelli con lo script **preprocess.py** come indicato nella documentazione del progetto sent-conv-torch
 
 Per avviare la classificazione su tweet/testi generati in tempo reale avviare lo script **GUI.py**
 
