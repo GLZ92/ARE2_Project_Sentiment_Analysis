@@ -15,7 +15,7 @@ Scaricare i file preprocess.py, main0.lua, preprocess0.py e GUI.py da questo rep
 
 Sovrascrivere tranquillamente il file preprocess.py. Esso non fa altro che generare il file .txt di word_mapping contenente le indicizzazioni delle parole in un formato utilizzabile dal file preprocess0.py, evitando la nascita di conflitti che sballino le future procedure di classificazione (cosa che accadrebbe con il preprocess.py preesistente). Inoltre sempre al fine di eliminare anomalie, esso applica prima l'indicizzazione delle parole presenti nel dev-set (nel caso in cui sia indicato ovviamente) rispetto a quelle del test-set.
 
-i
+
 ## ESECUZIONE
 
 Generare i modelli con lo script preprocess.py come indicato nelle documentazione del progetto sent-conv-torch
