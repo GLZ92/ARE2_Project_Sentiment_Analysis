@@ -22,6 +22,6 @@ Generare i modelli con lo script preprocess.py come indicato nelle documentazion
 
 Per avviare la classificazione su tweet/testi generati in tempo reale avviare lo script GUI.py
 
-Specificare il testo, il task di classificazione e premere "Start classification"
+Specificare il testo, il task di classificazione e premere __"Start classification"__
 
 Il programma eseguirà nell'ordine preprocess0.py e main0.py; l'utente riceverà tramtite un messageBox la comunicazione della predizione efettuata da parte del programma.
