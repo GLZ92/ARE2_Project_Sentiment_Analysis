@@ -33,7 +33,7 @@ Si riportano in seguito le corrispondenza tra task e nomenclature dei file da ge
 
  Task                | Model           | HDF5  |
 | -----------------  |:-------------:| -----:|
-| EI-oc , Angry      | EI-oc-angry.t7 | EI-oc-angry.hdf5 |
+| EI-oc , Anger      | EI-oc-angry.t7 | EI-oc-angry.hdf5 |
 | EI-oc , Joy        | EI-oc-joy.t7 | EI-oc-joy.hdf5 |
 | EI-oc , Sadness    | EI-oc-sadness.t7 | EI-oc-sadness.hdf5 |
 | EI-oc , Fear       | EI-oc-fear.t7 | EI-oc-fear.hdf5 |
