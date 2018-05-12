@@ -29,9 +29,11 @@ Utilizzando **GUI.py** verrà creato un file di tipo txt contenente il tweet ins
 ```
 cd sent-conv-torch
 mkdir custom_data
+cd custom_data
 mkdir EI-oc
 mkdir V-oc
 mkdir V-oc-3c
+cd EI-oc
 mkdir angry
 mkdir fear
 mkdir joy
