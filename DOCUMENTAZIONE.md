@@ -19,7 +19,7 @@ Sovrascrivere tranquillamente il file **preprocess.py**. Esso non fa altro che g
 
 **GUI.py** è lo script che avvia l'interfaccia grafica mediante la quale l'utente potrà specificare un tweet/testo e avviare la classificazione dopo aver selezionato il task desiderato.
 
-**stopwords.txt** è un file contenente espressioni come articoli e congiunzioni, che il programma ignorerà e scarterà dal tweet/testo generato tramite **GUI.py**
+**stopwords.txt** è un file contenente espressioni come articoli e congiunzioni e in generale parole di bassa rilevanza, che il programma ignorerà e scarterà dal tweet/testo generato tramite **GUI.py**
 
 
 ## CREAZIONE PATH FILE DI TEST
