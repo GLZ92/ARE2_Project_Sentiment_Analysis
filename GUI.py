@@ -139,10 +139,6 @@ def premoSubmit(event):
                 hdf5file = choosenTask.get() + "-" + choosenCategory.get()
 
             fileNameRoot = "custom_data/" + task_category
-            trainSet = fileNameRoot + "/En-train.txt"
-            devSet = fileNameRoot + "/En-dev.txt"
-
-            embeddingFile = "word2vec_twitter_model.bin"
 
             #creo file con il tweet inserito
             testSet = fileNameRoot + "/En-test.txt"
